@@ -11,7 +11,7 @@
         <div>
             Working with the Calendar Server Control<br />
             <br />
-            <asp:Calendar ID="myCalendar" runat="server" BackColor="White" BorderColor="White" BorderWidth="1px" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="190px" NextPrevFormat="FullMonth" Width="350px">
+            <asp:Calendar ID="myCalendar" runat="server" BackColor="White" BorderColor="White" BorderWidth="1px" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="190px" NextPrevFormat="FullMonth" SelectionMode="DayWeek" Width="350px">
                 <DayHeaderStyle Font-Bold="True" Font-Size="8pt" />
                 <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" VerticalAlign="Bottom" />
                 <OtherMonthDayStyle ForeColor="#999999" />
@@ -24,7 +24,7 @@
             <br />
             <asp:Button ID="getDateButton" runat="server" OnClick="getDateButton_Click" Text="Get Date" />
 &nbsp;<asp:Button ID="setDateButton" runat="server" OnClick="setDateButton_Click" Text="Set Date" />
-&nbsp;<asp:Button ID="showDateButton" runat="server" Text="Show Date" />
+&nbsp;<asp:Button ID="showDateButton" runat="server" OnClick="showDateButton_Click" Text="Show Date" />
 &nbsp;<asp:Button ID="selectedWeekButton" runat="server" Text="Selected Week" />
             <br />
             <br />
