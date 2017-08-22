@@ -34,5 +34,10 @@ namespace DevUCSharpCS_ASP_016
         {
             resultLabel.Text = "Week of " + myCalendar.SelectedDate.ToShortDateString();
         }
+
+        protected void myCalendar_SelectionChanged(object sender, EventArgs e)
+        {
+            resultLabel.Text = myCalendar.SelectedDate.ToShortDateString();
+        }
     }
 }
