@@ -11,6 +11,7 @@
         <div>
             Working with the Calendar Server Control<br />
             <br />
+            <asp:Calendar ID="myCalendar" runat="server"></asp:Calendar>
             <br />
             <br />
             <br />
