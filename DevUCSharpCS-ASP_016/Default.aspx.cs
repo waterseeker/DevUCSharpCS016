@@ -18,5 +18,11 @@ namespace DevUCSharpCS_ASP_016
         {
             resultLabel.Text = myCalendar.SelectedDate.ToShortDateString();
         }
+
+        protected void setDateButton_Click(object sender, EventArgs e)
+        {
+            myCalendar.SelectedDate = DateTime.Parse("6/1/2014");
+            myCalendar.VisibleDate = myCalendar.SelectedDate;
+        }
     }
 }

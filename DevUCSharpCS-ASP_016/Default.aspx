@@ -23,7 +23,7 @@
             <br />
             <br />
             <asp:Button ID="getDateButton" runat="server" OnClick="getDateButton_Click" Text="Get Date" />
-&nbsp;<asp:Button ID="setDateButton" runat="server" Text="Set Date" />
+&nbsp;<asp:Button ID="setDateButton" runat="server" OnClick="setDateButton_Click" Text="Set Date" />
 &nbsp;<asp:Button ID="showDateButton" runat="server" Text="Show Date" />
 &nbsp;<asp:Button ID="selectedWeekButton" runat="server" Text="Selected Week" />
             <br />
