@@ -13,5 +13,10 @@ namespace DevUCSharpCS_ASP_016
         {
 
         }
+
+        protected void getDateButton_Click(object sender, EventArgs e)
+        {
+            resultLabel.Text = myCalendar.SelectedDate.ToShortDateString();
+        }
     }
 }
