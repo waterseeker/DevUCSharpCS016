@@ -29,5 +29,10 @@ namespace DevUCSharpCS_ASP_016
         {
             myCalendar.VisibleDate = DateTime.Parse("12/7/1969");
         }
+
+        protected void selectedWeekButton_Click(object sender, EventArgs e)
+        {
+            resultLabel.Text = "Week of " + myCalendar.SelectedDate.ToShortDateString();
+        }
     }
 }

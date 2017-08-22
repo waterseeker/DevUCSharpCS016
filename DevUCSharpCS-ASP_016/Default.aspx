@@ -25,7 +25,7 @@
             <asp:Button ID="getDateButton" runat="server" OnClick="getDateButton_Click" Text="Get Date" />
 &nbsp;<asp:Button ID="setDateButton" runat="server" OnClick="setDateButton_Click" Text="Set Date" />
 &nbsp;<asp:Button ID="showDateButton" runat="server" OnClick="showDateButton_Click" Text="Show Date" />
-&nbsp;<asp:Button ID="selectedWeekButton" runat="server" Text="Selected Week" />
+&nbsp;<asp:Button ID="selectedWeekButton" runat="server" OnClick="selectedWeekButton_Click" Text="Selected Week" />
             <br />
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
